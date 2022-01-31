@@ -22,7 +22,7 @@ import it.rubrica.exceptions.ContattoNonTrovatoException;
 @WebServlet("/controller")
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+       // Servlet che utilizza il pattern factory model per decidere quale istanza utilizzare.
 	@EJB
 	RubricaEjb servRubrica;
     public Controller() {
